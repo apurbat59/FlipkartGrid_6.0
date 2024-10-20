@@ -1,0 +1,26 @@
+0 ACT ||
+1 Advil
+2 Bingo
+3 Colgate
+4 Fogg
+5 Fortune
+6 garnier
+7 Haldiram's
+8 Himalaya
+9 ibuprofen
+10 Juice
+11 Lays
+12 Mamaearth
+13 MDH
+14 Milk
+15 Motrin
+16 Oatghrut
+17 Oat Milk
+18 Paracetamol
+19 Red label
+20 Sour Cream
+21 Sour Milk
+22 Soyghrut
+23 Soy Milk
+24 Yoghrut
+25 zyrtec
