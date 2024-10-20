@@ -1,0 +1,162 @@
+{% extends "layout.html" %}
+{% block content %}
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Project Overview</h1>
+                    </div>
+
+                    <div class="row">
+
+                        <!-- Earnings (Monthly) Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                Domain</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">AI-Machine Learning</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-chalkboard fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Earnings (Annual) Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                Dataset Source</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">Kaggle</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-database fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Tasks Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-info shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
+                                                Algorithm</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">CNN</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-chart-area fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pending Requests Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-warning shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                                Framework</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">Flask</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-archway fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-lg-6">
+
+                            <!-- Default Card Example -->
+                            <div class="card mb-4">
+                                <div class="card-header">
+                                    <h6 class="m-0 font-weight-bold text-primary">Problem Statment</h6>
+                                </div>
+                                <div class="card-body text-justify">
+                                    Problem Statement:
+                                    Fresh fruits and vegetables are perishable, and improper freshness management leads to waste. Retailers and consumers lack tools to accurately assess freshness and estimate shelf life. There is a need for a solution that uses computer vision and machine learning to analyze visual cues (color, texture) and predict freshness, helping reduce food waste and optimize inventory.
+                                 </div>
+                            </div>
+
+                            <!-- Basic Card Example -->
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Introduction</h6>
+                                </div>
+                                <div class="card-body text-justify">
+                                    Food waste from spoiled produce is a major issue in retail and homes. This project uses computer vision and CNNs to assess the freshness of fruits and vegetables and predict their shelf life by analyzing visual cues, helping reduce waste and optimize inventory management.
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-6">
+
+                            <!-- Dropdown Card Example -->
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Proposed Solution</h6>
+
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body text-justify">
+                                    Freshness Detection and Shelf Life Prediction for Fresh Produce
+                                    This solution uses CNN to analyze images of fruits and vegetables, assessing their freshness and predicting their shelf life based on visual cues like color and texture. It helps reduce food waste by enabling retailers and consumers to make better decisions about inventory and consumption.
+                                </div>
+                            </div>
+
+                            <!-- Collapsable Card Example -->
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Accordion -->
+                                <a href="#collapseCardExample" class="d-block card-header py-3" data-toggle="collapse"
+                                    role="button" aria-expanded="true" aria-controls="collapseCardExample">
+                                    <h6 class="m-0 font-weight-bold text-primary">Conclusion</h6>
+                                </a>
+                                <!-- Card Content - Collapse -->
+                                <div class="collapse show" id="collapseCardExample">
+                                    <div class="card-body text-justify">
+                                        Freshness Detection and Shelf Life Prediction
+Uses CNN to assess freshness and predict shelf life of produce from images, helping reduce food waste and optimize inventory decisions.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+        {% endblock %}
+
+        </div>
+
+
+
+
+
