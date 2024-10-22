@@ -41,7 +41,7 @@ This project implements a convolutional neural network (CNN) to detect the fresh
 - SQLite
 - Virtual environment tools (optional but recommended)
 
-## Libraries required
+## Libraries Required
 -flask==1.1.1
 -werkzeug==0.15.6 
 -itsdangerous==2.0.1 
@@ -56,4 +56,3 @@ This project implements a convolutional neural network (CNN) to detect the fresh
 -protobuf==3.19.0 
 -numpy==1.19.5 
 -scikit-learn==0.24.1
-
