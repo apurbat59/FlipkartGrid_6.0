@@ -2,7 +2,7 @@
 
 
 ## Project Overview
-This project implements a convolutional neural network (CNN) to detect the freshness of fresh produce based on images. It involves building a full-stack application with a Python-based backend and a front-end developed using HTML, CSS, and JavaScript. The freshness detection model is trained on a dataset from Kaggle, and real-time predictions are served via a Flask API.
+This project combines two implementations using  convolutional neural network (CNN) to detect the brand name and the freshness of fresh produce based on images. It involves building a full-stack application with a Python-based backend and a front-end developed using HTML, CSS, and JavaScript. The freshness detection model is trained on a dataset from Kaggle, and real-time predictions are served via a Flask API.
 
 ## Technologies Used
 - **Algorithm**: Convolutional Neural Network (CNN)
